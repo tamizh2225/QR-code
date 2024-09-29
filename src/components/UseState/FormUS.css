@@ -1,0 +1,45 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+table{
+    border: 1px solid #ccc;
+    border-collapse:collapse ;
+    width: 350px;
+
+}
+
+
+
+table td{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+table td:first-child{
+    font-weight: 600;
+}
+
+form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+form label{
+    cursor: pointer;
+}
+
+.select-div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.abc{
+    width: 350px;
+    flex-wrap: wrap;
+}

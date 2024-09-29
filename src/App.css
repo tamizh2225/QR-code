@@ -1,0 +1,32 @@
+.color{
+    color: green;
+}
+
+.oral{
+    color: rgb(9, 78, 78);
+}
+
+.code{
+    color: aqua;
+}
+
+.error{
+    color: brown;
+}
+
+.student table{
+    border: 2px solid #333;
+    width: 400px;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.student table td,
+.student table th{
+    text-align: left;
+    padding: 5px;
+    border: 2px solid #333;
+    
+}
